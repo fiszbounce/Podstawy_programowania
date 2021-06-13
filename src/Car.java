@@ -19,8 +19,8 @@ public class Car {
     public void startEngine() {
         System.out.println("Silnik " + this.model + " ZROBIl BRUMBUM");
     }
-    public void stopEngine(){
-        System.out.println("silnik hamuje o");
+    public void stopEngine(String percent){
+        System.out.println("silnik hamuje o" + percent);
 
     }
 }
