@@ -1,10 +1,13 @@
 public class Main {
-    public static void main (String args[]){
-        String text = "testowanie";
-        char Nazwa1 = '1';
+    public static void main (String args[]) {
+        String text = "pisz";
+        String text2 = new String("ladnie");
+        String text3 = ("ok");
+        text.length();
+        System.out.println(text.length());
+        System.out.println(text.indexOf('s'));
+        System.out.println(text.substring(0,2));
 
-        System.out.println(Character.isDigit(Nazwa1));
-        Character.isDigit(Nazwa1);
-        Character.isDigit(Nazwa1);
+
     }
 }
