@@ -6,7 +6,9 @@ public class Main {
         text.length();
         System.out.println(text.length());
         System.out.println(text.indexOf('s'));
+        System.out.println(text.trim());
         System.out.println(text.substring(0,2));
+        text.toCharArray()
 
 
     }
