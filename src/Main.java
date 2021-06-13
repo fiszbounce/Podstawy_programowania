@@ -7,7 +7,7 @@ public class Main {
         Car Kia = new Car("Sportage", "Grey", "Diesel", "2011");
 
         Kia.startEngine();
-        Polonez.startEngine();
+        Kia.stopEngine(" 50");
 
 
     }
